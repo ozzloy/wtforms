@@ -8,4 +8,4 @@ class F(Form):
 
 def test_textarea_field():
     form = F()
-    assert form.a() == """<textarea id="a" name="a">\r\nLE DEFAULT</textarea>"""
+    assert form.a() == """<textarea id="a" name="a">LE DEFAULT</textarea>"""

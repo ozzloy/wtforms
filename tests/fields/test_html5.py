@@ -165,12 +165,12 @@ def test_minlength_maxlength():
 
     assert (
         form.textarea1() == '<textarea id="textarea1" minlength="1"'
-        ' name="textarea1">\r\n</textarea>'
+        ' name="textarea1"></textarea>'
     )
 
     assert (
         form.textarea2() == '<textarea id="textarea2" maxlength="3" minlength="1"'
-        ' name="textarea2">\r\n</textarea>'
+        ' name="textarea2"></textarea>'
     )
 
     assert (

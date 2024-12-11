@@ -137,7 +137,7 @@ def test_textarea(basic_widget_dummy_field):
     basic_widget_dummy_field.id = ""
     assert (
         TextArea()(basic_widget_dummy_field)
-        == '<textarea id="" name="f">\r\nhi&lt;&gt;bye</textarea>'
+        == '<textarea id="" name="f">hi&lt;&gt;bye</textarea>'
     )
 
 

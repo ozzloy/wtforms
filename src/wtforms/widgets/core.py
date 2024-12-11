@@ -326,7 +326,7 @@ class TextArea:
         textarea_params = html_params(name=field.name, **kwargs)
         textarea_innerhtml = escape(field._value())
         return Markup(
-            f"<textarea {textarea_params}>\r\n{textarea_innerhtml}</textarea>"
+            f"<textarea {textarea_params}>{textarea_innerhtml}</textarea>"
         )
 
 
